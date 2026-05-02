@@ -1,0 +1,51 @@
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+  z-index: 150;
+}
+
+.themeBtn {
+  background: var(--secondary);
+  border: 1px solid var(--border-strong);
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--foreground);
+  transition: var(--transition);
+}
+
+.themeBtn:hover {
+  border-color: var(--primary);
+  background: var(--background);
+}
+
+.cart {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.cartIcon {
+  font-size: 20px;
+}
+
+.badge {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background: var(--primary);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid var(--background);
+}
